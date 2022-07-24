@@ -56,3 +56,10 @@ Space Complexity: O(1)
 1. Import project as Maven project into IDE of your choice. (I have implemented code logic using Intellij. So writing this from Intellij perspective.)
 2. To run test case, right click on project and select *All Tests*
 3. To execute program from main class, using _Run Configuration_ execute main class within Intellij.
+
+### Improvements:
+If we consider Anti-clockwise traversal within given 2D array, then we can try to generalize code from perspective of directions that we want to travel like below
+1. TOWARDS_LEFT from either top right or bottom right
+2. TOWARDS_RIGHT from either top left or bottom left
+3. TOWARDS_UP from either right vertical or left vertical movement
+4. TOWARDS_DOWN from either right vertical or left vertical movement
